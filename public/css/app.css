@@ -1,0 +1,17 @@
+.boton-fluor-rosa {
+  background: linear-gradient(135deg, #ff00cc, #ff99cc); /* Degradado rosa fluorescente */
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 12px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 0 10px #ff66cc, 0 0 20px #ff33aa;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.boton-fluor-rosa:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px #ff66cc, 0 0 40px #ff33aa;
+}
